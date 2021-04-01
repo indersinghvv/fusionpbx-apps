@@ -335,6 +335,11 @@
 					access_key = settings['sms'][carrier..'_access_key']['text']
 				end
 			end
+			if (settings['sms'][carrier..'_application_id'] ~= nil) then
+				if (settings['sms'][carrier..'_application_id']['text'] ~= nil) then
+					application_id = settings['sms'][carrier..'_application_id']['text']
+				end
+			end
 			if (settings['sms'][carrier..'_secret_key'] ~= nil) then
 				if (settings['sms'][carrier..'_secret_key']['text'] ~= nil) then
 					secret_key = settings['sms'][carrier..'_secret_key']['text']
@@ -358,6 +363,7 @@
 		end
 		if (debug["info"]) then
 			if (access_key ~= nil) then freeswitch.consoleLog("notice", "[sms] access_key: " .. access_key .. "\n") end;
+			if (application_id ~= nil) then freeswitch.consoleLog("notice", "[sms] application_id: " .. application_id .. "\n") end;
 			if (secret_key ~= nil) then freeswitch.consoleLog("notice", "[sms] secret_key: " .. secret_key .. "\n") end;
 			if (api_url ~= nil) then freeswitch.consoleLog("notice", "[sms] api_url: " .. api_url .. "\n") end;
 			if (username ~= nil) then freeswitch.consoleLog("notice", "[sms] username: " .. username .. "\n") end;
@@ -405,7 +411,7 @@
 				if outbound_caller_id_number:len() < 11 then
 					outbound_caller_id_number = "1" .. outbound_caller_id_number;
 				end
-				cmd="curl -v -X POST " .. api_url .." -u " .. access_key .. ":" .. secret_key .. " -H \"Content-type: application/json\" -d '{\"from\": \"+" .. outbound_caller_id_number .. "\", \"to\": \"+" .. to .."\", \"text\": \"" .. body .."\"}'"		
+				cmd="curl -v -X POST " .. api_url .." -u " .. access_key .. ":" .. secret_key .. " -H \"Content-type: application/json\" -d '{\"from\": \"+" .. outbound_caller_id_number .. "\", \"to\": \"+" .. to .."\",\"applicationId\": \"".. application_id .."\", \"text\": \"" .. body .."\"}'"		
 			elseif (carrier == "thinq") then
 				if to:len() < 11 then
 					to = "1" .. to;

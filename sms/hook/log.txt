@@ -1,0 +1,262 @@
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:05:10.439Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600949109232clkax665hlp2x4p7","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:09.232Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]}}]---------------------------------
+time-05:05:11am
+[{"time":"2020-09-24T12:05:10.439Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600949109232clkax665hlp2x4p7","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:09.232Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:05:10.599Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"fdfb1e7b-9eea-41cb-a59d-b15f027101c0","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:10.200Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/fdfb1e7b-9eea-41cb-a59d-b15f027101c0\/0\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]}}]---------------------------------
+time-05:05:11am
+[{"time":"2020-09-24T12:05:10.599Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"fdfb1e7b-9eea-41cb-a59d-b15f027101c0","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:10.200Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/fdfb1e7b-9eea-41cb-a59d-b15f027101c0\/0\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/fdfb1e7b-9eea-41cb-a59d-b15f027101c0\/0\/CUzBuYqq0PybjwagGMxFdH57daaBUtiX1600977908.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 401@fdev01.ringvertical.com 19095219690 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/9e16ebfd13f3963874c89ceb64d1bd0b.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:05:30.190Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"160094912828233s3ymorlqk5j3b6","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:28.282Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]}}]---------------------------------
+time-05:05:30am
+[{"time":"2020-09-24T12:05:30.190Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"160094912828233s3ymorlqk5j3b6","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:28.282Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:05:35.271Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"160094912828233s3ymorlqk5j3b6","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:28.282Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]}}]---------------------------------
+time-05:05:35am
+[{"time":"2020-09-24T12:05:35.271Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"160094912828233s3ymorlqk5j3b6","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:05:28.282Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Yk4wcvxe7a3jDno8H2X8vdeUF4JwybIM1600977927.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:22:47.822Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600950166036ggbufhuqbccdkihv","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:22:46.036Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]}}]---------------------------------
+time-05:22:48am
+[{"time":"2020-09-24T12:22:47.822Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600950166036ggbufhuqbccdkihv","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:22:46.036Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:22:59.209Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600950166036ggbufhuqbccdkihv","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:22:46.036Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]}}]---------------------------------
+time-05:22:59am
+[{"time":"2020-09-24T12:22:59.209Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600950166036ggbufhuqbccdkihv","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:22:46.036Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ptLxpAClWvcnybRA7f4mpiPyrMRcnlSS1600978965.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:24:18.600Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"160095025730854s3sf3kypisgc4h","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:24:17.308Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]}}]---------------------------------
+time-05:24:19am
+[{"time":"2020-09-24T12:24:18.600Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"160095025730854s3sf3kypisgc4h","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:24:17.308Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:24:25.270Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"160095025730854s3sf3kypisgc4h","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:24:17.308Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]}}]---------------------------------
+time-05:24:25am
+[{"time":"2020-09-24T12:24:25.270Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"160095025730854s3sf3kypisgc4h","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:24:17.308Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/vwyxv13ZEIMKBLHigGoNXhhtVylZNN191600979056.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:39:14.863Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600951153635262weiwbas3wkx3a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:13.635Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]}}]---------------------------------
+time-05:39:15am
+[{"time":"2020-09-24T12:39:14.863Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600951153635262weiwbas3wkx3a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:13.635Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:39:25.668Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600951153635262weiwbas3wkx3a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:13.635Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]}}]---------------------------------
+time-05:39:26am
+[{"time":"2020-09-24T12:39:25.668Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600951153635262weiwbas3wkx3a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:13.635Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/2cIqnUOn6GQuaK7RUwMEjTFkXS6ZcWdU1600979952.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:39:32.163Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600951170583rem6olfqt6bttt6c","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:30.583Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]}}]---------------------------------
+time-05:39:32am
+[{"time":"2020-09-24T12:39:32.163Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600951170583rem6olfqt6bttt6c","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:30.583Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:39:32.642Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"c421fff7-623d-45f3-a63a-9e7e74b35b5f","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:32.082Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/c421fff7-623d-45f3-a63a-9e7e74b35b5f\/0\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]}}]---------------------------------
+time-05:39:33am
+[{"time":"2020-09-24T12:39:32.642Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"c421fff7-623d-45f3-a63a-9e7e74b35b5f","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:39:32.082Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/c421fff7-623d-45f3-a63a-9e7e74b35b5f\/0\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/c421fff7-623d-45f3-a63a-9e7e74b35b5f\/0\/3GjDXcOyWQAixBvWyjbStQY8gWv8RyIK1600979969.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 401@fdev01.ringvertical.com 19095219690 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/5b0c052d45761951e6cbbab3306e92b6.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:47:38.192Z","type":"message-failed","to":"+19093153972","description":"Could not download media","message":{"id":"1600951657655kigklojvyoxsiuk2","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:47:37.655Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/id7aZw4Fl2V9f6GTgLQiaDI08BCFH4Qq1600980456.ogg"]},"errorCode":4410}]---------------------------------
+time-05:47:38am
+[{"time":"2020-09-24T12:47:38.192Z","type":"message-failed","to":"+19093153972","description":"Could not download media","message":{"id":"1600951657655kigklojvyoxsiuk2","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:47:37.655Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/id7aZw4Fl2V9f6GTgLQiaDI08BCFH4Qq1600980456.ogg"]},"errorCode":4410}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/id7aZw4Fl2V9f6GTgLQiaDI08BCFH4Qq1600980456.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:49:23.793Z","type":"message-failed","to":"+19095219690","description":"Could not download media","message":{"id":"1600951763255p7emf533izorwmmf","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:49:23.255Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/0i36UCqdEXfCeiUDgKaNLDdrRPRY3sit1600980562.ogg"]},"errorCode":4410}]---------------------------------
+time-05:49:24am
+[{"time":"2020-09-24T12:49:23.793Z","type":"message-failed","to":"+19095219690","description":"Could not download media","message":{"id":"1600951763255p7emf533izorwmmf","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:49:23.255Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/0i36UCqdEXfCeiUDgKaNLDdrRPRY3sit1600980562.ogg"]},"errorCode":4410}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/0i36UCqdEXfCeiUDgKaNLDdrRPRY3sit1600980562.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:50:36.163Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"16009518350665m2mlt2vgjzipdxc","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:50:35.066Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]}}]---------------------------------
+time-05:50:36am
+[{"time":"2020-09-24T12:50:36.163Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"16009518350665m2mlt2vgjzipdxc","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:50:35.066Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:50:36.496Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"03f32684-9f45-4f9e-b234-624a356a3948","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:50:36.124Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/03f32684-9f45-4f9e-b234-624a356a3948\/0\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]}}]---------------------------------
+time-05:50:37am
+[{"time":"2020-09-24T12:50:36.496Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"03f32684-9f45-4f9e-b234-624a356a3948","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:50:36.124Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/03f32684-9f45-4f9e-b234-624a356a3948\/0\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/03f32684-9f45-4f9e-b234-624a356a3948\/0\/kVbqsC5dpDp5sbanDFEaGorPx11DekgE1600980634.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 19093153972 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/e8420815824440c2ec045f61c8da6f6d.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:56:29.929Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600952188661umsvmhsyedx5lm6q","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:56:28.661Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]}}]---------------------------------
+time-05:56:30am
+[{"time":"2020-09-24T12:56:29.929Z","type":"message-sending","to":"+19093153972","description":"Message is sending to carrier","message":{"id":"1600952188661umsvmhsyedx5lm6q","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:56:28.661Z","segmentCount":1,"direction":"out","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T12:56:30.398Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"118692ed-93a2-4d7f-b6d8-778bd7afe01d","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:56:29.979Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/118692ed-93a2-4d7f-b6d8-778bd7afe01d\/0\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]}}]---------------------------------
+time-05:56:31am
+[{"time":"2020-09-24T12:56:30.398Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"118692ed-93a2-4d7f-b6d8-778bd7afe01d","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T12:56:29.979Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+19095219690","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/118692ed-93a2-4d7f-b6d8-778bd7afe01d\/0\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/118692ed-93a2-4d7f-b6d8-778bd7afe01d\/0\/T9QzY0Wmo4efDeo6HB3EVelFBoK2HvNb1600980988d.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 401@fdev01.ringvertical.com 19095219690 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/e34df37ca71b7c74ed06c33e699e36a0.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:07:31.523Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"4a468af5-d1b2-4f65-bc9e-7dc7c20f75c2","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:07:31.210Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/4a468af5-d1b2-4f65-bc9e-7dc7c20f75c2\/0\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]}}]---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:07:31.432Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600952850257lfiedcrkg3tenap6","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:07:30.257Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]}}]---------------------------------
+time-06:07:31am
+[{"time":"2020-09-24T13:07:31.432Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600952850257lfiedcrkg3tenap6","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:07:30.257Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]
+---------------------------------
+time-06:07:32am
+[{"time":"2020-09-24T13:07:31.523Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"4a468af5-d1b2-4f65-bc9e-7dc7c20f75c2","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:07:31.210Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/4a468af5-d1b2-4f65-bc9e-7dc7c20f75c2\/0\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/4a468af5-d1b2-4f65-bc9e-7dc7c20f75c2\/0\/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 19093153972 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/1CVt1d2DHKAQwb8ezwYaBG67ZUgmlGVc1600981649d.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:08:12.079Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600952891061cm7dxktxwy2s5anb","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:08:11.061Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]}}]---------------------------------
+time-06:08:12am
+[{"time":"2020-09-24T13:08:12.079Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600952891061cm7dxktxwy2s5anb","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:08:11.061Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:08:12.197Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"a18c4fa5-74b5-462b-89a5-f478b407f3c0","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:08:11.870Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/a18c4fa5-74b5-462b-89a5-f478b407f3c0\/0\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]}}]---------------------------------
+time-06:08:12am
+[{"time":"2020-09-24T13:08:12.197Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"a18c4fa5-74b5-462b-89a5-f478b407f3c0","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:08:11.870Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/a18c4fa5-74b5-462b-89a5-f478b407f3c0\/0\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/a18c4fa5-74b5-462b-89a5-f478b407f3c0\/0\/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 19093153972 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/Sceh5x9FGEKt5m0cqNiZgbqYG8Ecg4Xz1600981690d.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:09:24.970Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"b1bca4a6-7282-4587-8fca-2b700240c287","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:09:24.640Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/b1bca4a6-7282-4587-8fca-2b700240c287\/0\/123_1.jpeg"]}}]---------------------------------
+time-06:09:25am
+[{"time":"2020-09-24T13:09:24.970Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"b1bca4a6-7282-4587-8fca-2b700240c287","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:09:24.640Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/b1bca4a6-7282-4587-8fca-2b700240c287\/0\/123_1.jpeg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/b1bca4a6-7282-4587-8fca-2b700240c287\/0\/123_1.jpeg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 16579990086 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/123_1.jpeg","content-type":"image/jpeg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:11:14.389Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"58b94115-8e1e-44b3-b4c6-1b120e420d2b","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:11:13.906Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/58b94115-8e1e-44b3-b4c6-1b120e420d2b\/0\/123_1.jpeg"]}}]---------------------------------
+time-06:11:15am
+[{"time":"2020-09-24T13:11:14.389Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"58b94115-8e1e-44b3-b4c6-1b120e420d2b","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:11:13.906Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/58b94115-8e1e-44b3-b4c6-1b120e420d2b\/0\/123_1.jpeg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/58b94115-8e1e-44b3-b4c6-1b120e420d2b\/0\/123_1.jpeg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 16579990086 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/123_1.jpeg","content-type":"image/jpeg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:15:02.038Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"0beae2a2-a044-4b29-92d3-7c13720cb112","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:15:01.485Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/0beae2a2-a044-4b29-92d3-7c13720cb112\/0\/123_1.jpeg"]}}]---------------------------------
+time-06:15:02am
+[{"time":"2020-09-24T13:15:02.038Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"0beae2a2-a044-4b29-92d3-7c13720cb112","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:15:01.485Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/0beae2a2-a044-4b29-92d3-7c13720cb112\/0\/123_1.jpeg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/0beae2a2-a044-4b29-92d3-7c13720cb112\/0\/123_1.jpeg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 16579990086 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/0f4324577d00229eabb192bc0039b9d3.jpeg","content-type":"image/jpeg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:16:06.914Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600953365750px6s4cwsin6gzxoe","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:16:05.750Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]}}]---------------------------------
+time-06:16:07am
+[{"time":"2020-09-24T13:16:06.914Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"1600953365750px6s4cwsin6gzxoe","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:16:05.750Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:16:07.241Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"e13fb892-8243-4b08-803f-6bb11961274a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:16:06.782Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/e13fb892-8243-4b08-803f-6bb11961274a\/0\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]}}]---------------------------------
+time-06:16:07am
+[{"time":"2020-09-24T13:16:07.241Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"e13fb892-8243-4b08-803f-6bb11961274a","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:16:06.782Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/e13fb892-8243-4b08-803f-6bb11961274a\/0\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/e13fb892-8243-4b08-803f-6bb11961274a\/0\/ANgqTQGqyiiVfIJNrfawiw7fRl95jFFk1600982165d.ogg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 19093153972 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/886e0fef9ad531004509762d37ccf000.ogg","content-type":"audio/ogg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:18:39.572Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600953518305bkgty5wzy3mcsoqw","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:18:38.305Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]}}]---------------------------------
+time-06:18:40am
+[{"time":"2020-09-24T13:18:39.572Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600953518305bkgty5wzy3mcsoqw","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:18:38.305Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:18:46.847Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600953518305bkgty5wzy3mcsoqw","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:18:38.305Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]}}]---------------------------------
+time-06:18:47am
+[{"time":"2020-09-24T13:18:46.847Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600953518305bkgty5wzy3mcsoqw","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:18:38.305Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/xsqJXJ7mqfpW21gzXYhRUH26oePBxvJk1600982317d.ogg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:22:09.849Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"21881008-e84d-4064-81b7-64e0d7fea4e0","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:09.380Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/21881008-e84d-4064-81b7-64e0d7fea4e0\/0\/123_1.jpeg"]}}]---------------------------------
+time-06:22:10am
+[{"time":"2020-09-24T13:22:09.849Z","type":"message-received","to":"+19093153972","description":"Incoming message received","message":{"id":"21881008-e84d-4064-81b7-64e0d7fea4e0","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:09.380Z","segmentCount":1,"direction":"in","to":["+19093153972"],"from":"+16579990086","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/21881008-e84d-4064-81b7-64e0d7fea4e0\/0\/123_1.jpeg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/21881008-e84d-4064-81b7-64e0d7fea4e0\/0\/123_1.jpeg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 401@fdev01.ringvertical.com 16579990086 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/f2eee1025a50678e1c6860a30f1fc742.jpeg","content-type":"image/jpeg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:22:39.838Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600953757683orkaihyqcg3rkgio","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:37.683Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]}}]---------------------------------
+time-06:22:40am
+[{"time":"2020-09-24T13:22:39.838Z","type":"message-sending","to":"+16579990086","description":"Message is sending to carrier","message":{"id":"1600953757683orkaihyqcg3rkgio","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:37.683Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:22:49.177Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600953757683orkaihyqcg3rkgio","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:37.683Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]}}]---------------------------------
+time-06:22:49am
+[{"time":"2020-09-24T13:22:49.177Z","type":"message-delivered","to":"+16579990086","description":"Message delivered to carrier.","message":{"id":"1600953757683orkaihyqcg3rkgio","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:22:37.683Z","segmentCount":1,"direction":"out","to":["+16579990086"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/gCLYJacIZQ1vuVXthEtFilkzNIeJSg5z1600982556d.jpeg"]
+---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:23:34.728Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"02ff95d1-4d25-485c-ab50-50a3eae10bc5","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:23:33.595Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/02ff95d1-4d25-485c-ab50-50a3eae10bc5\/0\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]}}]---------------------------------
+-------from encryption--------------------------
+received callbacks
+[{"time":"2020-09-24T13:23:33.667Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"16009538115076tvuxdmdajalaeor","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:23:31.507Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]}}]---------------------------------
+time-06:23:35am
+[{"time":"2020-09-24T13:23:33.667Z","type":"message-sending","to":"+19095219690","description":"Message is sending to carrier","message":{"id":"16009538115076tvuxdmdajalaeor","owner":"+19093153972","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:23:31.507Z","segmentCount":1,"direction":"out","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]}}]
+attachments-["https:\/\/fdev01.ringvertical.com\/app\/sms\/hook\/files\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]
+---------------------------------
+time-06:23:35am
+[{"time":"2020-09-24T13:23:34.728Z","type":"message-received","to":"+19095219690","description":"Incoming message received","message":{"id":"02ff95d1-4d25-485c-ab50-50a3eae10bc5","owner":"+19095219690","applicationId":"e1968bce-2935-4029-b0e1-df6fbe067d8f","time":"2020-09-24T13:23:33.595Z","segmentCount":1,"direction":"in","to":["+19095219690"],"from":"+19093153972","text":"","media":["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/02ff95d1-4d25-485c-ab50-50a3eae10bc5\/0\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]}}]
+attachments-["https:\/\/messaging.bandwidth.com\/api\/v2\/users\/5003655\/media\/02ff95d1-4d25-485c-ab50-50a3eae10bc5\/0\/z3dzja3Iewl6D4rCTg8fejIPmdkoQySF1600982610d.jpeg"]
+---------------------------------
+switch cmd-api luarun app.lua sms inbound 402@fdev01.ringvertical.com 19093153972 '{"body":"","attachments":[{"content-url":"https://fdev01.ringvertical.com/app/sms/hook/files/eec6c7337da26a3051bfed6e515b733a.jpeg","content-type":"image/jpeg","encryption-key":"ed1557863360a4f3478af9f4f3afc711"}]}' 
+---------------------------------

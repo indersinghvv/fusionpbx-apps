@@ -39,7 +39,7 @@ $debug = true;
 
 require_once "resources/require.php";
 
-function route_and_send_sms($from, $to, $body, $media = "") {
+function route_and_send_sms($from, $to, $body, $attachments = "") {
 	global $db, $debug, $domain_uuid, $domain_name, $mailsent;
 
 	//create the event socket connection and send the event socket command
@@ -53,10 +53,13 @@ function route_and_send_sms($from, $to, $body, $media = "") {
 				$to = intval(preg_replace('/(^[1])/','', $to));
 				$from = intval($from);
 				$body = preg_replace('([\'])', '\\\'', $body); // escape apostrophes
+				
+				$media = preg_replace('([\'])', '\\\'', $attachments); // escape apostrophes
 				if ($debug) {
 					error_log("TO: " . print_r($to,true));
 					error_log("FROM: " . print_r($from,true));
 					error_log("BODY: " . print_r($body,true));
+					error_log("ATTACHMENTS: " . print_r($attachments,true));
 				}
 				$mailbody = $body;
 				if (gettype($media)=="array") {
@@ -185,6 +188,8 @@ function route_and_send_sms($from, $to, $body, $media = "") {
 					}
 				} else { //single extension
 					$switch_cmd = "api luarun app.lua sms inbound " . $match[0] . "@" . $domain_name . " " . $from . " '" . $body . "' " . $mailsent;
+					error_log(print_r($switch_cmd,true));
+					
 					if ($debug) {
 						error_log(print_r($switch_cmd,true));
 					}
@@ -192,6 +197,10 @@ function route_and_send_sms($from, $to, $body, $media = "") {
 					if ($debug) {
 						error_log("RESULT: " . print_r($result2,true));
 					}
+					$fp = fopen('/var/www/fusionpbx/app/sms/hook/log.txt', 'a') or die("Unable to open file!");//opens file in append mode
+					fwrite($fp, "switch cmd-".$switch_cmd.PHP_EOL);
+					fwrite($fp, "---------------------------------".PHP_EOL);
+					fclose($fp);
 				}
 
 				unset ($prep_statement);

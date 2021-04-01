@@ -161,7 +161,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = 'sms';
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = 'bandwidth_api_url';
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = 'text';
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = 'https://api.catapult.inetwork.com/v1/users/{userId}/messages';
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = 'https://messaging.bandwidth.com/api/v2/users/{{accountId}}/messages';
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = 'false';
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = '';
 		$y++;
@@ -261,6 +261,14 @@
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = 'bandwidth_secret_key';
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = 'text';
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = '';
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = 'false';
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = '';
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = '0af3ff85-b325-4b67-b838-e8a85a8cbc0d';
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = 'sms';
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = 'bandwidth_application_id';
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = 'text';
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = 'hdghdfjh-dghgd2';
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = 'false';
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = '';
 		$y++;
